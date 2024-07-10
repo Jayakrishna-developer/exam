@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul li a{
+    text-decoration: none;
+    margin: 10px;
+    color: green;
+}
+.container-fluid{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/2bfc701c-a23a-4ee1-8cd5-ae9c1aa9e12d/Homepage-edit-First-Image.jpg?format=original);
+    background-size: contain;
+        width: 100%;
+        height: 600px;
+        background-repeat: no-repeat;
+       
+}
+.col-6 h1{
+    margin-top: 150px;
+    color: green;
+    margin-left: 150px;
+    
+}
+.col-6 p{
+    margin-left: 150px;
+    color: green;
+}
+.btn{
+    margin-left: 150px;
+}
+.row2{
+    display: flex;
+}
+ .row2 .col-2 p{
+    margin-top: 10px;
+    text-align: center;
+    color:green ;
+    margin-right: 100px;
+
+}
+#years .col-6 h1{
+    margin-top: 95px;
+    margin-left: 100px;
+   
+  
+}
+#years .col-6 p{
+    margin-left: 100px;
+    text-align: justify;
+}
+#years .col-6 button{
+margin-left: 100px;
+}
+#years{
+    margin-top: 50px;
+}
+#balanced .col-6 h1 {
+    margin-top: 95px;
+    margin-left: 50px;
+  
+
+
+}
+
+#balanced .col-6 p {
+    margin-left:50px;
+    text-align: justify;
+}
+#balanced .col-6 button {
+    margin-left: 50px;
+}
+.col-4 img{
+    display: flex;
+}
